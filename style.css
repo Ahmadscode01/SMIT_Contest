@@ -1,0 +1,62 @@
+.nav{
+  background-color: #2B2A29;
+  clip-path: polygon(0 0, 100% 0, 96% 100%, 3% 100%);
+  margin-left: 15em;
+  margin-right: 15em;
+  z-index: 99;
+  position: relative;
+}
+
+.nav-link{
+  color: white;
+
+}
+
+.nav-link:hover{
+  color: orange;
+
+}
+
+.hero {
+  width: 100%;
+  float: left;
+  background-image: url(banner-bg.png);
+  height: 90vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 5em;
+  width: 5em;
+  height: auto;
+}
+
+.cards{
+  width: 5px;
+  height: auto;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+#headings div h1{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
